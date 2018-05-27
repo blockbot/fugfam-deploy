@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  fugfam:
+    environment:
+      DEBUG: 'true'
+    expose: 
+      - 6969
+    ports:
+      - 3000:6969
+    volumes:
+      - ${PWD}/../fugfam:/var/www
