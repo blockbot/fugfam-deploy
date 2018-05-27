@@ -4,3 +4,4 @@ services:
   fugfam:
     build: .
     container_name: fugfam
+    image: blockbot/fugfam
